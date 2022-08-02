@@ -1,0 +1,81 @@
+.movie_page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1060px;
+    margin: 150px auto;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    top: 100px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+
+}
+
+.images>img {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+}
+
+.description {
+    color: gold;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    height: 750px;
+}
+
+.description>p {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.description>ul {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    text-align: start;
+    list-style-type: none;
+    position: relative;
+    right: 35px;
+    color: #f8f8f8;
+}
+
+.description>h1 {
+
+    position: absolute;
+    bottom: 780px;
+    min-width: 400px;
+    right: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.imgLeft {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+    width: 500px;
+}
+
+.tagLine {
+    font-size: 25px;
+    font-weight: bold;
+    color: gold;
+    border-bottom: 3px solid #ff0000;
+
+}
+
+

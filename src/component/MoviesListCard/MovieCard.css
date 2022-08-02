@@ -1,0 +1,44 @@
+.box_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.5);
+    width: 280px;
+    height: 520px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.box_card>p {
+    color: gold;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box_card>a {
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: gold;
+    font-size: 20px;
+    transition: .5s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+}
+
+.box_card>a:hover {
+    box-shadow: rgba(255, 251, 251, 0.16) 0 1px 4px, rgb(255, 0, 0) 0 0 0 3px;
+}
+
+.box_card>img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
+}

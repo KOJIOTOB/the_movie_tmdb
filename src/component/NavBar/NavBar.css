@@ -1,0 +1,90 @@
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.09) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+}
+
+#navbar>form {
+    display: flex;
+    gap: .5rem;
+    width: 400px;
+
+}
+
+#navbar>form>input {
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 25px;
+    transition: .5s;
+    color: gold;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#navbar>form>input:hover {
+    box-shadow: rgba(255, 251, 251, 0.16) 0 1px 4px, rgb(249, 0, 0) 0 0 0 3px;
+
+}
+
+#navbar>form>button {
+    background: rgba(26, 26, 26, 0.5);
+    color: wheat;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+    transition: .4s;
+
+}
+
+#navbar>form>button:hover {
+    box-shadow: rgba(255, 251, 251, 0.16) 0 1px 4px, rgb(8, 255, 0) 0 0 0 3px;
+}
+
+.title_Bar {
+    font-family: 'Monoton', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    color: gold;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navbar>h2 {
+    width: 400px;
+}
+
+#navbar>h2>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    background: rgba(0, 0, 0, 0.5);
+    width: 150px;
+    height: 40px;
+    transition: .5s;
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navbar>h2>a:hover {
+    box-shadow: rgba(255, 251, 251, 0.16) 0 1px 4px, rgb(249, 0, 0) 0 0 0 3px;
+}
+
+
