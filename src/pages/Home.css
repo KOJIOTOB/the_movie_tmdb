@@ -5,7 +5,7 @@
 }
 
 .movies_box {
-    width:1200px;
+    width:auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-column-gap: 20px;
