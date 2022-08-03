@@ -2,14 +2,32 @@
 
 
 body {
-
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
     outline: none;
-    background-image: url("assets/image.jpg");
-    background-attachment: fixed;
     font-family: 'Aldrich', sans-serif;
+}
+html[data-theme='dark'] {
+    animation: ani .1s forwards;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("assets/chili-g09ed65c6f_1920.jpg");
+    background-color: #080a09;
+    background-position: center;
+}
 
+
+html[data-theme='light'] {
+    background-attachment: fixed;
+    background-image: url("assets/poverhnost_svetlyy_fon_list_50523_3840x2400.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: ani .1s forwards;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }

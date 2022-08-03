@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
 
-import {base_IMG_w500, baseURL_person} from "../constans";
+import {base_IMG_w500, baseURL_person} from "../../constans";
 
 
 

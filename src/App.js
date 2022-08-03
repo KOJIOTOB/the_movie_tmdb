@@ -7,8 +7,6 @@ import {MainLayout} from "./layout";
 import {Home, Movie, Person, PersonInfo, Tv, TvMovie} from "./pages";
 import Search from "./pages/Search";
 
-
-
 const App = () => {
     return (
         <div className={'App'}>
@@ -22,6 +20,7 @@ const App = () => {
                     <Route path='person/:id' element={<PersonInfo/>}/>
                     <Route path='search' element={<Search/>}/>
                 </Route>
+
             </Routes>
         </div>
     )

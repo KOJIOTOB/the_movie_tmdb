@@ -5,6 +5,7 @@ import './MovieCard.css'
 
 const MoviesListCard = ({movie, showLink = true}) => {
 
+
     return (
         <div className={'box_card'}>
             <img src={base_IMG_w500 + movie.poster_path} alt={movie.title}/>

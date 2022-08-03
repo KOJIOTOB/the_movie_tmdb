@@ -20,9 +20,8 @@
 #navbar>form {
     display: flex;
     gap: .5rem;
-    width: 400px;
-
-
+    width: 500px;
+    height: 40px;
 }
 
 #navbar>form>input {
@@ -31,7 +30,6 @@
     border: none;
     background: rgba(0, 0, 0, 0.5);
     width: 200px;
-    height: 25px;
     transition: .5s;
     color: gold;
     font-weight: bold;
@@ -50,19 +48,17 @@
     cursor: pointer;
     width: 80px;
     transition: .4s;
-
-
 }
 
 #navbar>form>button:hover {
-    box-shadow: rgba(255, 251, 251, 0.16) 0 1px 4px, rgb(8, 255, 0) 0 0 0 3px;
+    box-shadow: rgba(255, 251, 251, 0.16) 0 1px 4px, rgb(249, 0, 0) 0 0 0 3px;
 }
 
 .title_Bar {
     font-size: 50px;
     font-weight: bold;
     color: gold;
-    width: 400px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +68,7 @@
 }
 
 #navbar>h2 {
-    width: 400px;
+    width: 500px;
     display: flex;
     grid-gap: 10px;
 }
@@ -95,6 +91,35 @@
 
 #navbar>h2>a:hover {
     box-shadow: rgba(255, 251, 251, 0.16) 0 1px 4px, rgb(249, 0, 0) 0 0 0 3px;
+}
+
+.themeBtn {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.themeBtn>button {
+    background: rgba(26, 26, 26, 0.5);
+    color: wheat;
+    cursor: pointer;
+    width: 50px;
+    transition: .4s;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 5px;
+
+}
+
+.darkBtn:hover {
+    box-shadow: rgba(255, 0, 0, 0.16) 0 1px 4px, rgb(249, 0, 0) 0 0 0 3px;
+    transition: .4s;
+}
+
+.lightBtn:hover {
+    box-shadow: rgba(255, 255, 255, 0.16) 0 1px 4px, rgb(250, 250, 250) 0 0 0 3px;
+    transition: .4s;
 }
 
 

@@ -3,9 +3,21 @@ import {Link, useNavigate} from "react-router-dom";
 
 import './NavBar.css'
 
+import {Theme} from "../../hooks/Theme";
+
 const NavBar = () => {
     const [search, setSearch] = useState('');
     const navigate = useNavigate();
+
+    const {theme, setTheme} = Theme();
+
+    const handleLightTheme = () => {
+        setTheme('light')
+    }
+
+    const handleDarkTheme = () => {
+        setTheme('dark')
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -28,7 +40,13 @@ const NavBar = () => {
                            value={search}
                     />
                     <button type="submit">Поиск</button>
+                    <div className={'themeBtn'}>
+                        <button className={'lightBtn'}  onClick={handleLightTheme}>Light</button>
+                        <button className={'darkBtn'} onClick={handleDarkTheme}>Dark</button>
+                    </div>
                 </form>
+
+
             </nav>
         </div>
     );
