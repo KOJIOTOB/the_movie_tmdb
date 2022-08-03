@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+
 .box_card {
     display: flex;
     flex-direction: column;
@@ -8,7 +11,17 @@
     height: 520px;
     padding-bottom: 10px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px 0;
+    opacity: 0;
+    animation: ani 2s forwards;
+    z-index: 0;
+    font-family: 'Aldrich', sans-serif;
+
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .box_card>p {
@@ -16,6 +29,7 @@
     font-size: 16px;
     text-align: center;
     font-weight: bold;
+
 }
 
 .box_card>a {
@@ -30,6 +44,7 @@
     color: gold;
     font-size: 20px;
     transition: .5s;
+
     box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px, rgba(0, 0, 0, 0.23) 0 3px 6px;
 }
 

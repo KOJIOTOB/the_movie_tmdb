@@ -17,11 +17,13 @@ const NavBar = () => {
         <div>
             <nav id="navbar">
                 <h2>
-                    <Link to={'/'}>Главная</Link>
+                    <Link to={'/'}>Фильмы</Link>
+                    <Link to={'tv'}>Сериалы</Link>
+                    <Link to={'person'}>Актёры</Link>
                 </h2>
-                <span className={'title_Bar'}>Афиша</span>
+                <span className={'title_Bar'}>This is Okten</span>
                 <form onSubmit={handleSubmit}>
-                    <input type="text" placeholder={'Search'}
+                    <input type="text" placeholder={'Исследуйте сейчас'}
                            onChange={(e) => setSearch(e.target.value)}
                            value={search}
                     />

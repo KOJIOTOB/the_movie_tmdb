@@ -1,7 +1,7 @@
 import {useSearchParams} from "react-router-dom";
 import {useState, useEffect} from "react";
 
-import {MoviesListCard} from "../component";
+import {MoviesListCard, TvListCard} from "../component";
 import {api_key, baseURL_search} from "../constans";
 
 import './Home.css'
